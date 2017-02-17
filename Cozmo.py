@@ -205,10 +205,7 @@ class Cozmo:
 
     # Triggered Animations
     
-    def countAnimation(self, triggerName):
-        theTrigger = getTrigger(triggerName)
-        anim = self.robot.play_anim_trigger(theTrigger)
-        anim.wait_for_completed()
+   
     
     def trigger(self, triggerName):
         if triggerName in triggerActions:
