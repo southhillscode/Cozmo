@@ -206,7 +206,7 @@ class Cozmo:
     # Triggered Animations
     
    
-    
+    #Not Needed
     def trigger(self, triggerName):
         if triggerName in triggerActions:
             theTrigger = getTrigger(triggerName)
